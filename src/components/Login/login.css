@@ -1,0 +1,70 @@
+
+
+.inputContainer {
+    background-color: white;
+    padding: 28px;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 15px 20px black;
+}
+
+.inputContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer p {
+    margin: 0;
+}
+
+.formLabel {
+    font-size: 14px;
+    padding: 16px 0 14px 0;
+}
+
+.textTitle {
+    font-family: 'gotham-bold';
+    color: var(--main-orange);
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+.inputArea {
+    padding: 10px 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border: solid rgba(128, 128, 128, 0.185) 1px
+}
+
+.inputArea:focus {
+    outline: none;
+}
+
+.loginButton {
+    margin: 12px 0 ;
+    border-radius: 8px;
+    padding: 10px 0;
+    border: none;
+    color: white;
+    background-color: var(--main-orange);
+}
+
+.loginButton:hover {
+    cursor: pointer;
+    background-color: rgb(209, 137, 4);
+    transition: all ease 0.2s;
+}
+
+.signinButton {
+    display: flex;
+    margin: 0 auto;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: var(--main-orange);
+}
+
+.signinButton:hover {
+    cursor: pointer;
+}

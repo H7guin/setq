@@ -1,0 +1,56 @@
+.pageContainer {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.closedSign {
+    display: flex;
+    flex-direction: column;
+    margin: 25vh auto 0 auto;
+    align-items: center;
+}
+
+.closedText {
+    font-family: 'gotham-bold';
+    font-size: 20px;
+}
+
+.closedIcon {
+    font-size: 32px;
+}
+
+
+.closedSubtitle {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+}
+
+.closedInfo span {
+    font-family: 'gotham-bold';
+    color: orange;
+}
+
+
+
+.closedTimer {
+    text-align: center;
+}
+
+.timerTitle {
+    font-size: 12px;
+    margin: 64px 0 0 0;
+    color: grey;
+}
+
+.timer {
+    font-family: 'gotham-bold';
+    font-size: 30px;
+}
