@@ -1,5 +1,5 @@
 .pageContainer {
-    width: 50%;
+    width: 35%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@
 
 .closedInfo span {
     font-family: 'gotham-bold';
-    color: orange;
+    color: var(--main-orange);
 }
 
 
