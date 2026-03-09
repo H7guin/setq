@@ -13,7 +13,7 @@ export default function Login() {
                 <input type="text" className='inputArea' placeholder="Insira sua senha"/>
             </form>
                 <button className='mainButton'>Entrar</button>
-                <Link to={'/signin'} className='secondaryButton'>Cadastrar</Link>
+                <Link to={'/signup'} className='secondaryButton'>Cadastrar</Link>
         </div>
         </>
     )
